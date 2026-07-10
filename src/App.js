@@ -10,7 +10,7 @@ const Login = React.lazy(() => import('./views/pages/login/Login'));
 const MobileSend = React.lazy(() => import('./views/mobiletransaction/mobilesend'));
 const ScanInvoice = React.lazy(() => import('./views/mobiletransaction/ScanInvoice'));
 const GateExit = React.lazy(() => import('./views/mobiletransaction/gateexit'));
-const PartScan = React.lazy(() => import('./views/mobiletransaction/PartScan'));
+const PartScan = React.lazy(() => import('./views/mobiletransaction/partscan'));
 
 function App() {
   const [user, setUser] = useState(
